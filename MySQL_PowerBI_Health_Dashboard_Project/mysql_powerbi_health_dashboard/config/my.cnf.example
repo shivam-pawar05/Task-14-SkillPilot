@@ -1,0 +1,8 @@
+# Copy to /etc/mysql/backup-client.cnf and restrict permissions:
+# sudo chown root:root /etc/mysql/backup-client.cnf
+# sudo chmod 600 /etc/mysql/backup-client.cnf
+[client]
+user=backup_user
+password=REPLACE_WITH_STRONG_PASSWORD
+host=localhost
+port=3306
